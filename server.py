@@ -35,9 +35,7 @@ def calculate_age(date_of_birth: str) -> int:
 def random_number(min_value: int, max_value: int) -> int:
 
     if min_value > max_value:
-        temp = min_value
-        min_value = max_value
-        max_value = min_value
+        min_value, max_value = max_value, min_value
         
     return random.randint(min_value, max_value)
 
