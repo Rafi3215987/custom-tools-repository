@@ -1,7 +1,7 @@
 from datetime import date, datetime
 import random
 
-from mcp.server.fastmcp import FastMCP
+from fastmcp import FastMCP
 
 
 # Create one MCP server
